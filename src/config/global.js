@@ -146,7 +146,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/dist.pdf',
+        download: 'downloads/22810041_CF02_CFA.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -187,12 +187,12 @@ export default {
         'Estructura del orquestador que almacena los elementos de trabajo pendientes de procesar.',
     },
     {
-      termino: 'Command Palette',
+      termino: '<i>Command Palette</i>',
       significado:
         'Herramienta de la interfaz vigente de UiPath Studio que permite buscar y ejecutar comandos y actividades rápidamente.',
     },
     {
-      termino: 'Data Manager',
+      termino: '<i>Data Manager</i>',
       significado:
         'Espacio de la versión vigente de UiPath Studio para gestionar variables, argumentos y constantes.',
     },
@@ -226,7 +226,7 @@ export default {
         'Valor de un objeto que puede cambiar; se declara con nombre, tipo de dato y alcance.',
     },
     {
-      termino: 'Workflow',
+      termino: '<i>Workflow</i>',
       significado:
         'Flujo de trabajo donde se diseña la automatización combinando actividades.',
     },
@@ -297,18 +297,19 @@ export default {
             'Profesional 06  <br> Responsable Ecosistema Virtual de Recursos Educativos Digitales  ',
           centro: 'Centro Agroturístico - Regional Santander',
         },
-        {
-          nombre: 'Olga Constanza Bermúdez',
-          cargo: 'Responsable de línea de producción Huila',
-          centro: 'Dirección General',
-        },
       ],
     },
     {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Eliana Audrey Manchola Pérez ',
+          nombre: 'Luis Eyder Ortiz Collazos ',
+          cargo: 'Experto temático ',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila ',
+        },
+        {
+          nombre: 'Zulema Yidney León Escobar ',
           cargo: 'Experto temático ',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila ',
@@ -378,25 +379,25 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Ricardo Oliveros Zambrano ',
-          cargo: 'Validador de recursos educativos digitales',
-          centro:
-            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
-        },
-        {
           nombre: 'Aixa Natalia Sendoya Fernández ',
           cargo: 'Validador de recursos educativos digitales',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
-          nombre: 'Daniel Ricardo Mutis Gómez ',
-          cargo: 'Evaluador para contenidos inclusivos y accesibles',
+          nombre: 'Ricardo Oliveros Zambrano',
+          cargo: 'Validador de recursos educativos digitales',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
           nombre: 'Anyerson Wilfredo Pizo Ossa ',
+          cargo: 'Evaluador para contenidos inclusivos y accesibles',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Daniel Ricardo Mutis Gómez ',
           cargo: 'Evaluador para contenidos inclusivos y accesibles',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',

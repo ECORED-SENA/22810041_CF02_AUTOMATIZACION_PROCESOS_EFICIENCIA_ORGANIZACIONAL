@@ -825,7 +825,7 @@
                       h5 Figura 15.
                       span Resultado de la ejecución en el panel de salida y en el archivo generado
                     figure
-                    img(src='@/assets/curso/temas/t2/tarjeta09_3.png', alt='Captura de pantalla de los resultados de la automatización con información de la ejecución en el panel de salida y los valores almacenados en el archivo generado, utilizados para comprobar el funcionamiento del flujo.', style="width: 100%;").mx-auto
+                    img(src='@/assets/curso/temas/t2/tarjeta09_4.png', alt='Captura de pantalla de los resultados de la automatización con información de la ejecución en el panel de salida y los valores almacenados en el archivo generado, utilizados para comprobar el funcionamiento del flujo.', style="width: 100%;").mx-auto
               .col-lg-5.order-1.mb-3.mb-lg-0
                 h4 Verificación de los resultados
                 p Finalmente, la ejecución permite comprobar el funcionamiento de la automatización mediante la información presentada en el panel de salida y la revisión del archivo generado con los datos procesados.

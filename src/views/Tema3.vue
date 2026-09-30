@@ -190,7 +190,7 @@
                       h5 Figura 16.
                       span Consola de administración con los procesos publicados y su estado de ejecución
                     figure
-                    img(src='@/assets/curso/temas/t2/tarjeta09_1.png', alt='Captura de pantalla de UiPath Orchestrator en la sección Automations > Processes, con el proceso RPA cambiomoneda, su versión 1.0.4, prioridad media y punto de entrada Main.xaml.', style="width: 100%;").mx-auto
+                    img(src='@/assets/curso/temas/t3/tarjeta03_1.png', alt='Captura de pantalla de UiPath Orchestrator en la sección Automations > Processes, con el proceso RPA cambiomoneda, su versión 1.0.4, prioridad media y punto de entrada Main.xaml.', style="width: 100%;").mx-auto
               .col-lg-5.order-1.mb-3.mb-lg-0
                 h4 Administración de los procesos publicados
                 p La consola de administración permite visualizar los procesos disponibles, consultar su estado de ejecución y realizar seguimiento a las automatizaciones implementadas dentro del entorno.
@@ -202,7 +202,7 @@
                       h5 Figura 17.
                       span Configuración de un disparador para la ejecución programada del proceso
                     figure
-                    img(src='@/assets/curso/temas/t2/tarjeta09_2.png', alt='Captura de pantalla de UiPath Orchestrator con la configuración de un disparador destinado a programar la ejecución automática de un proceso de acuerdo con las condiciones establecidas.', style="width: 100%;").mx-auto
+                    img(src='@/assets/curso/temas/t3/tarjeta03_2.png', alt='Captura de pantalla de UiPath Orchestrator con la configuración de un disparador destinado a programar la ejecución automática de un proceso de acuerdo con las condiciones establecidas.', style="width: 100%;").mx-auto
               .col-lg-5.order-1.mb-3.mb-lg-0
                 h4 Administración de los procesos publicados
                 p La configuración de un disparador permite definir cuándo debe ejecutarse automáticamente un proceso, facilitando la programación de tareas recurrentes sin necesidad de iniciarlas manualmente.
