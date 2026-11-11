@@ -13,7 +13,60 @@
         .col-12.col-lg-8.order-2.order-lg-1.bg-color-4.p-4(data-aos="fade-left")
           p.mb-0 La creación de una automatización en <b>UiPath</b> comprende una serie de etapas que permiten pasar desde la preparación del entorno hasta la construcción, ejecución y administración del robot de <i>software.</i> En esta sección se desarrolla, paso a paso, el proceso de instalación y configuración inicial de la herramienta, de acuerdo con la versión vigente utilizada para el desarrollo de las actividades prácticas.
       p(data-aos="fade-left") Antes de iniciar el trabajo en <b>UiPath Studio</b>, es conveniente reconocer el <b>ciclo de vida de una automatización</b>, debido a que la construcción del robot corresponde únicamente a una de sus etapas. Este ciclo comprende la identificación del proceso candidato, su análisis y documentación, el diseño de la solución, la construcción del robot, las pruebas, la publicación y, finalmente, el monitoreo y mantenimiento.
-      p(data-aos="fade-left") Considerar estas etapas desde el inicio contribuye a construir automatizaciones más estables y facilita su adaptación ante posibles cambios en las aplicaciones involucradas. Omitir el análisis y el diseño puede generar dificultades cuando se modifican las condiciones, interfaces o componentes del proceso automatizado.
+      p.mb-5(data-aos="fade-left") Considerar estas etapas desde el inicio contribuye a construir automatizaciones más estables y facilita su adaptación ante posibles cambios en las aplicaciones involucradas. Omitir el análisis y el diseño puede generar dificultades cuando se modifican las condiciones, interfaces o componentes del proceso automatizado.
+      .titulo-tercer-nivel.mb-5.mt-3(data-aos="fade-right")
+        img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/bg/titulos.svg')
+        h3.titulo-tercer-nivel__text.mb-0.px-0.py-2 Requisitos del entorno
+      //- Título nivel 3 - Imagen
+      p(data-aos="fade-left") Antes de instalar <b>UiPath</b>, es recomendable verificar que el equipo cumpla los requisitos establecidos para la versión de la herramienta que se utilizará. Estos pueden incluir un sistema operativo compatible, memoria disponible, espacio de almacenamiento, conexión a internet y un navegador compatible cuando la automatización involucre aplicaciones web. Los principales requisitos del entorno son los siguientes:
+      //- Slideshow
+      .bg-full-width.bg-fondo-slider.mb-4
+        .p-4.p-md-5
+          SlyderA(tipo="b").bg-white.p-4.tarjeta(data-aos="fade-left")
+            .row.align-items-center.p-4.p-md-5
+              .col-lg-5.order-2
+                figure
+                 img(src='@/assets/curso/temas/t2/tarjeta02_1.png')
+              .col-lg-7.order-1.mb-3.mb-lg-0
+                h4 Sistema operativo
+                p Windows 10 u 11 de 64 bits. Debe ser compatible con la versión de <b>UiPath Studio</b> que se utilizará durante el desarrollo de las automatizaciones.
+            .row.align-items-center.p-4.p-md-5
+              .col-lg-5.order-2
+                figure
+                  img(src='@/assets/curso/temas/t2/tarjeta02_2.png')
+              .col-lg-7.order-1.mb-3.mb-lg-0
+                h4 Memoria RAM
+                p Mínimo 4 GB; se recomiendan 8 GB o más para proyectos que requieran manejo de datos o una mayor cantidad de actividades y dependencias.
+            .row.align-items-center.p-4.p-md-5
+              .col-lg-5.order-2
+                figure
+                  img(src='@/assets/curso/temas/t2/tarjeta02_3.png')
+              .col-lg-7.order-1.mb-3.mb-lg-0
+                h4 Espacio en disco
+                p Se requiere espacio suficiente para la instalación de la herramienta y para las dependencias asociadas con los paquetes de actividades utilizados en los proyectos.
+            .row.align-items-center.p-4.p-md-5
+              .col-lg-5.order-2
+                figure
+                  img(src='@/assets/curso/temas/t2/tarjeta02_4.png')
+              .col-lg-7.order-1.mb-3.mb-lg-0
+                h4 Navegador
+                p Chrome, Edge o Firefox, con la extensión de <b>UiPath</b> habilitada cuando se requiera automatizar páginas <i>web</i>.
+            .row.align-items-center.p-4.p-md-5
+              .col-lg-5.order-2
+                figure
+                  img(src='@/assets/curso/temas/t2/tarjeta02_5.png')
+              .col-lg-7.order-1.mb-3.mb-lg-0
+                h4 Conectividad
+                p Conexión a internet para realizar el registro, descargar paquetes y acceder a los servicios disponibles mediante <b><i>Automation Cloud</i></b>.
+            .row.align-items-center.p-4.p-md-5
+              .col-lg-5.order-2
+                figure
+                  img(src='@/assets/curso/temas/t2/tarjeta02_6.png')
+              .col-lg-7.order-1.mb-3.mb-lg-0
+                h4 Cuenta
+                p Cuenta de <b>UiPath <i>Automation Cloud</i></b> asociada al correo utilizado durante el proceso de registro y acceso a la plataforma.
+      //- Fin Slideshow
+      p.mb-0(data-aos="fade-left") El cumplimiento de estos requisitos facilita la instalación y el funcionamiento adecuado de las herramientas necesarias para desarrollar las automatizaciones.
       Separador
       //- Inicio Tema2.1
       .row
@@ -21,13 +74,13 @@
           h2 2.1 Instalación de UiPath Studio (versión vigente)
       p(data-aos="fade-left") Para comenzar el desarrollo de las automatizaciones, es necesario instalar <b>UiPath Studio</b>, entorno desde el cual se diseñarán posteriormente los flujos de trabajo.
       p(data-aos="fade-left") El procedimiento de instalación comienza con el acceso a la plataforma de <b>UiPath</b> y la creación o utilización de una cuenta. A partir de esta cuenta se ingresa a <b>UiPath <i>Automation Cloud</i></b>, desde donde se obtiene el instalador de Studio. Para completar este proceso, se deben seguir los siguientes pasos:
-      .row.bg-fondo-2(data-aos="fade-right")
+      .row.bg-fondo-2.mb-3(data-aos="fade-right")
         .col-12
-          .pt-3.pb-5.px-5      
+          .pt-3.px-5      
             //- Linea de tiempo
             .row.justify-content-center
               .col-lg-10
-                PasosA.color-acento-contenido.mb-4(tipo="n")
+                PasosA.color-acento-contenido(tipo="n")
                   .row.align-items-center
                     .col-12.col-lg
                       h4 Paso 1. Acceder a UiPath
@@ -85,7 +138,7 @@
                       h4 Paso 8. Iniciar UiPath Studio
                       p Una vez terminada la instalación, abrir UiPath Studio y comprobar que el entorno se encuentre disponible para comenzar a crear proyectos de automatización.
             //- Linea de tiempo
-      p(data-aos="fade-left") Una vez completados estos pasos, es necesario realizar una verificación básica de la instalación antes de continuar con la creación del proyecto.
+      p.mb-5(data-aos="fade-left") Una vez completados estos pasos, es necesario realizar una verificación básica de la instalación antes de continuar con la creación del proyecto.
       //- Título nivel 3 - Imagen
       .titulo-tercer-nivel.mb-5.mt-3(data-aos="fade-right")
         img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/bg/titulos.svg')
@@ -98,61 +151,6 @@
         .col-12.col-lg-8.order-2.order-lg-1.p-4(data-aos="fade-left")
           p Después de instalar la herramienta, es conveniente comprobar que <b>UiPath Studio</b> se inicia correctamente y que la pantalla principal permite acceder a las opciones necesarias para crear un proyecto.
           p.mb-0 También se debe verificar que <b>UiPath Assistant</b> esté disponible en el equipo y que, cuando se vaya a trabajar con aplicaciones <i>web</i>, la extensión correspondiente del navegador se encuentre habilitada. Una vez completada esta verificación, el entorno estará preparado para continuar con el siguiente paso: reconocer la interfaz de <b>UiPath Studio</b> y crear el proyecto de automatización.
-      //- Título nivel 3 - Imagen
-      .titulo-tercer-nivel.mb-5.mt-3(data-aos="fade-right")
-        img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/bg/titulos.svg')
-        h3.titulo-tercer-nivel__text.mb-0.px-0.py-2 Requisitos del entorno
-      //- Título nivel 3 - Imagen
-      p(data-aos="fade-left") Antes de instalar <b>UiPath</b>, es recomendable verificar que el equipo cumpla los requisitos establecidos para la versión de la herramienta que se utilizará. Estos pueden incluir un sistema operativo compatible, memoria disponible, espacio de almacenamiento, conexión a internet y un navegador compatible cuando la automatización involucre aplicaciones web. Los principales requisitos del entorno son los siguientes:
-      //- Slideshow
-      .bg-full-width.bg-fondo-slider.mb-3
-        .p-4.p-md-5
-          SlyderA(tipo="b").bg-white.p-4.tarjeta(data-aos="fade-left")
-            .row.align-items-center.p-4.p-md-5
-              .col-lg-5.order-2
-                figure
-                 img(src='@/assets/curso/temas/t2/tarjeta02_1.png')
-              .col-lg-7.order-1.mb-3.mb-lg-0
-                h4 Sistema operativo
-                p Windows 10 u 11 de 64 bits. Debe ser compatible con la versión de <b>UiPath Studio</b> que se utilizará durante el desarrollo de las automatizaciones.
-            .row.align-items-center.p-4.p-md-5
-              .col-lg-5.order-2
-                figure
-                  img(src='@/assets/curso/temas/t2/tarjeta02_2.png')
-              .col-lg-7.order-1.mb-3.mb-lg-0
-                h4 Memoria RAM
-                p Mínimo 4 GB; se recomiendan 8 GB o más para proyectos que requieran manejo de datos o una mayor cantidad de actividades y dependencias.
-            .row.align-items-center.p-4.p-md-5
-              .col-lg-5.order-2
-                figure
-                  img(src='@/assets/curso/temas/t2/tarjeta02_3.png')
-              .col-lg-7.order-1.mb-3.mb-lg-0
-                h4 Espacio en disco
-                p Se requiere espacio suficiente para la instalación de la herramienta y para las dependencias asociadas con los paquetes de actividades utilizados en los proyectos.
-            .row.align-items-center.p-4.p-md-5
-              .col-lg-5.order-2
-                figure
-                  img(src='@/assets/curso/temas/t2/tarjeta02_4.png')
-              .col-lg-7.order-1.mb-3.mb-lg-0
-                h4 Navegador
-                p Chrome, Edge o Firefox, con la extensión de <b>UiPath</b> habilitada cuando se requiera automatizar páginas <i>web</i>.
-            .row.align-items-center.p-4.p-md-5
-              .col-lg-5.order-2
-                figure
-                  img(src='@/assets/curso/temas/t2/tarjeta02_5.png')
-              .col-lg-7.order-1.mb-3.mb-lg-0
-                h4 Conectividad
-                p Conexión a internet para realizar el registro, descargar paquetes y acceder a los servicios disponibles mediante <b><i>Automation Cloud</i></b>.
-            .row.align-items-center.p-4.p-md-5
-              .col-lg-5.order-2
-                figure
-                  img(src='@/assets/curso/temas/t2/tarjeta02_6.png')
-              .col-lg-7.order-1.mb-3.mb-lg-0
-                h4 Cuenta
-                p Cuenta de <b>UiPath <i>Automation Cloud</i></b> asociada al correo utilizado durante el proceso de registro y acceso a la plataforma.
-      //- Fin Slideshow
-      p(data-aos="fade-left") El cumplimiento de estos requisitos facilita la instalación y el funcionamiento adecuado de las herramientas necesarias para desarrollar las automatizaciones.
-      //- Título nivel 3 - Imagen
       .titulo-tercer-nivel.mb-5.mt-3(data-aos="fade-right")
         img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/bg/titulos.svg')
         h3.titulo-tercer-nivel__text.mb-0.px-0.py-2 Consideraciones y problemas frecuentes durante la instalación

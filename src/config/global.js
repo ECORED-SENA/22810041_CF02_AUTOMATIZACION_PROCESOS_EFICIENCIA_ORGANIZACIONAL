@@ -235,17 +235,17 @@ export default {
     {
       referencia:
         'International Organization for Standardization. (2021). ISO/IEC/IEEE 29119-3:2021: Software and systems engineering—Software testing—Part 3: Test documentation.',
-      link: 'https://www.iso.org/standard/79429.html',
+      link: '',
     },
     {
       referencia:
         'International Organization for Standardization. (2021). ISO/IEC/IEEE 29119-4:2021: Software and systems engineering—Software testing—Part 4: Test techniques.',
-      link: 'https://www.iso.org/standard/79430.html',
+      link: '',
     },
     {
       referencia:
         'International Organization for Standardization. (2022). ISO/IEC/IEEE 29119-1:2022: Software and systems engineering—Software testing—Part 1: General concepts.',
-      link: 'https://www.iso.org/standard/81291.html',
+      link: '',
     },
     {
       referencia: 'Logicbus. (2021). ¿Qué es automatización?',
@@ -259,7 +259,7 @@ export default {
     {
       referencia:
         'ProcessMaker. (2021, 19 de enero). Automatización de la nube vs. orquestación de la nube: Entendiendo las diferencias.',
-      link: 'https://www.processmaker.com/es/blog/cloud-automation-vs-cloud-orchestration/',
+      link: '',
     },
     {
       referencia: 'Robocorp. (s. f.). Automation without boundaries.',
@@ -294,7 +294,7 @@ export default {
         {
           nombre: 'Claudia Johanna Gómez Pérez',
           cargo:
-            'Profesional 06  <br> Responsable Ecosistema Virtual de Recursos Educativos Digitales  ',
+            'Profesional G06. Responsable Ecosistema Virtual de Recursos Educativos Digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
@@ -339,25 +339,25 @@ export default {
         },
         {
           nombre: 'Alejandro Delgado Acosta ',
-          cargo: 'Intérprete lenguaje de señas  ',
+          cargo: 'Intérprete lenguaje de señas',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
-          nombre: 'Cristhian Giovanni Gordillo Segura ',
+          nombre: 'Cristhian Giovanni Gordillo Segura',
           cargo: 'Intérprete lenguaje de señas ',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
           nombre: 'Juan Pablo Rojas Polania ',
-          cargo: 'Animador y productor audiovisual ',
+          cargo: 'Animador y productor multimedia',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
           nombre: 'Carlos Eduardo Garavito Parada ',
-          cargo: 'Animador y productor audiovisual ',
+          cargo: 'Animador y productor multimedia',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },

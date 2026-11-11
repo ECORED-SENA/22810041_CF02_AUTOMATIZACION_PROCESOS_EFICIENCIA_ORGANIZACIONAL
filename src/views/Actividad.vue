@@ -323,7 +323,7 @@ export default {
             {
               id: 'c',
               texto:
-                'Desde <i>Main Sequence</i> utilizando las herramientas disponibles para descargar nuevos proyectos.',
+                'Desde Main Sequence utilizando las herramientas disponibles para descargar nuevos proyectos.',
               esCorrecta: false,
             },
             {

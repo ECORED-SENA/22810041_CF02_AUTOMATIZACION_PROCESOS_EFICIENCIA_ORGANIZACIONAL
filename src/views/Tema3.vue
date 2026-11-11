@@ -30,19 +30,19 @@
                 AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta acordeonA")
                   .row(titulo="Carpetas")
                     p.mb-4 Organizan los recursos de Orchestrator y determinan el contexto en el que se encuentran disponibles los procesos y robots. En el caso práctico se utiliza la carpeta Shared.
-                  .row(titulo="Machine Template")
+                  .row(titulo="<i>Machine Template</i>")
                     p.mb-4 Representa la configuración de la máquina que puede utilizarse para ejecutar automatizaciones. En el caso práctico se configura una máquina <b>Self-hosted</b> con capacidad <b>Production (Unattended)</b>.
-                  .row(titulo="Robot Account")
+                  .row(titulo="<i>Robot Account</i>")
                     p.mb-4 Representa la identidad utilizada para ejecutar la automatización. En el caso práctico se crea una cuenta de robot asociada con una cuenta de Windows de la máquina de ejecución.
-                  .row(titulo="Packages")
+                  .row(titulo="<i>Packages</i>")
                     p.mb-4 Contienen las versiones publicadas de los proyectos desarrollados en <b>UiPath Studio</b>. En el caso práctico se publica el paquete <b>cambiomoneda</b>.
-                  .row(titulo="Processes")
+                  .row(titulo="<i>Processes</i>")
                     p.mb-4 Permiten disponer en <b>Orchestrator</b> de un paquete publicado para su ejecución. En el caso práctico se utiliza el proceso <b>cambiomoneda</ b>.
-                  .row(titulo="Jobs")
+                  .row(titulo="<i>Jobs</i>")
                     p.mb-4 Representan ejecuciones concretas de un proceso. En el caso práctico se inicia un <b>Job</b> mediante el <i>Runtime</i> <b>Production (Unattended)</b>.
-                  .row(titulo="Triggers")
+                  .row(titulo="<i>Triggers</i>")
                     p.mb-4 Permiten programar la ejecución automática de un proceso. En el caso práctico se configura un <b>Time Trigger</b> para <b>cambiomoneda</b>.
-                  .row(titulo="Monitoring")
+                  .row(titulo="<i>Monitoring</i>")
                     p.mb-4 Permite consultar el estado de las ejecuciones y la información relacionada con los <b>Jobs</b>, facilitando el seguimiento de la automatización.
           //- Fin Accordion 1
       .row.justify-content-center.align-items-center.mb-3

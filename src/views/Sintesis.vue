@@ -2,13 +2,7 @@
   .curso-main-container.pb-3
     BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-      .row.mb-5
-        .col-12.ps-3(style="border-left: 10px solid #39A900;") 
-          h3.mb-1 Automatización de Procesos para la Eficiencia Organizacional
-          p.mb-0 
-            | Síntesis:
-            | creación de la automatización del proceso
-      p.mt-5 A continuación, se presenta una síntesis de la temática estudiada en el componente formativo.
+      p A continuación, se presenta una síntesis de la temática estudiada en el componente formativo.
       .row.justify-content-center
         .col-lg-10.mb-5.bgs.p-4.brad
           figure
